@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../Shared/Navbar';
 
 const Main = () => {
     return (
         <div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia omnis quos earum pariatur sed numquam consectetur aut adipisci sit debitis.</h3>
+           <Navbar></Navbar>
         </div>
     );
 };
