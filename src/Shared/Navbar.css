@@ -1,0 +1,9 @@
+.search-box {
+  height: 50px;
+  width: 50px;
+  background-color: #faf5ee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
