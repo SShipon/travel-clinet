@@ -40,10 +40,4 @@ color: white;
 background-color: rgb(148, 121, 247);
 }
 
-.location-section{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 30px;
-    margin: 50px 0px;
-}
 
