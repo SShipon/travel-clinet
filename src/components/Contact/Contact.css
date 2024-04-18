@@ -1,64 +1,69 @@
+.contact-form-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  padding-bottom: 40px;
+  max-width: 1200px;
+}
+.contact-form {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+.contact-form input,
+textarea {
+  width: 100%;
+  background: #faf5ee;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.contact-form input:hover,
+textarea:hover {
+  transform: scale(0.9);
+}
 
-.contact-form-section{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     margin: auto;
-     padding-bottom: 40px;
-     max-width: 1200px;
+.contact-text {
+  margin: auto;
 }
-.contact-form{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    flex-direction: column;
-}
-.contact-form input ,textarea{
-    width: 100%;
-   background: #faf5ee;
-    padding: 10px;
-    border-radius: 4px;
-    outline: none;
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.contact-form input:hover ,textarea:hover{
-    transform: scale(0.9);
-}
-
-.contact-text{
-    margin: auto;
-}
-.contact-text h1{
+.contact-text h1 {
   display: block;
-    color: #e8604c;
-    font-size: 20px;
-    align-items: center;
-    line-height: 30px;
-    font-weight: 400;
+  color: #e8604c;
+  font-size: 20px;
+  align-items: center;
+  line-height: 30px;
+  font-weight: 400;
   font-family: 'reeyregular', sans-serif;
 }
-.contact-text h2{
-   margin: 0;
-    font-weight: 600;
-    color:#313041;
-    font-size: 50px;
-    line-height: 60px;
-    letter-spacing: -.02em;
+.contact-text h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 48px;
+  display: block;
+  color: #e8604c;
+}
+.contact-text h2 {
+  margin: 0;
+  font-weight: 600;
+  color: #313041;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
 }
 
-.contact-form button{
-width: 275px;
-outline: none;
-border: none;
-color: white;
-background-color: #e8604c;
+.contact-form button {
+  width: 275px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #e8604c;
 }
-.contact-form button:hover{
-background-color: rgb(62, 62, 65);
-}
-
-
-.banner-img{
-filter: grayscale(90%);
+.contact-form button:hover {
+  background-color: rgb(62, 62, 65);
 }
 
+.banner-img {
+  filter: grayscale(90%);
+}
