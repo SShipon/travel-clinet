@@ -1,12 +1,26 @@
 import React from 'react';
 import './Contact.css';
+import contactBanner from '../../image/contactBanner.jpg'
+import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <div>
-      <div className="container mx-auto mt-12 mb-12">
+      <div className="mt-12 mb-12">
         <h2 className="text-2xl text-black text-center mb-5">
           Feel Free To Contact
         </h2>
+        <section className="banner mb-10">
+          <div className="banner-img-box">
+            <img className="banner-img" src={contactBanner} alt="" />
+                  </div>
+                  <div className="banner-option mt-3 mb-3">
+                      <div className="flex gap-5">
+                          <Link to="/">Home</Link>
+                          <Link to="/contact">Contact</Link>
+                      </div>
+                  </div>
+                  <hr />
+        </section>
         <section className="contact-form-section mt-12 mb-12">
           <div className="contact-img">
             <h1>Talk with our team</h1>
