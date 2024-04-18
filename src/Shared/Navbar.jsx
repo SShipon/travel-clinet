@@ -75,7 +75,7 @@ const Navbar = () => {
           <div className="flex">
             <div className="search-container">
               <div className="search-box">
-                <i class="fa-solid fa-magnifying-glass bg-"></i>
+                <i class="fa-solid fa-magnifying-glass "></i>
               </div>
             </div>
           </div>
