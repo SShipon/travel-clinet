@@ -1,10 +1,9 @@
 
 .contact-form-section{
      display: grid;
-  grid-template-columns: repeat(2,1fr);
+     grid-template-columns: repeat(2,1fr);
      margin: auto;
      padding-bottom: 40px;
-     border: 1px solid red;
      max-width: 1200px;
 }
 .contact-form{
@@ -26,8 +25,25 @@
     transform: scale(0.9);
 }
 
-.contact-img{
+.contact-text{
     margin: auto;
+}
+.contact-text h1{
+  display: block;
+    color: #e8604c;
+    font-size: 20px;
+    align-items: center;
+    line-height: 30px;
+    font-weight: 400;
+  font-family: 'reeyregular', sans-serif;
+}
+.contact-text h2{
+   margin: 0;
+    font-weight: 600;
+    color:#313041;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -.02em;
 }
 
 .contact-form button{
@@ -45,3 +61,4 @@ background-color: rgb(62, 62, 65);
 .banner-img{
 filter: grayscale(90%);
 }
+

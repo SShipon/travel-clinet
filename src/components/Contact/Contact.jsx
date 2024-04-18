@@ -22,10 +22,10 @@ const Contact = () => {
                   <hr />
         </section>
         <section className="contact-form-section mt-12 mb-12">
-          <div className="contact-img">
+          <div className="contact-text ">
             <h1>Talk with our team</h1>
             <h2>
-              Any Question? <br /> Feel Free to Contact
+              Any Question? <br /> Feel Free to <br /> Contact
             </h2>
             <div className="flex gap-3">
               <div className="search-container">
