@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
       <header className="bg-white py-10">
-        <nav className="flex justify-between items-center w-[92%] mx-auto">
+        <nav className="flex justify-between items-center w-[92%] mx-auto fixed">
           <div className="">
             <img src={travel} alt="" srcset="" />
           </div>
