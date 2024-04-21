@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
 
 const Navbar = () => {
-    
-    return (
-      <div className="navbar container mx-auto">
-        <div className="navbar-start">
+  return (
+    <div className="bg-gray-900 text-black">
+      <div className="mx-auto flex justify-around py-4">
+        <div className="flex items-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,50 +25,74 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow bg-gray-800 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#" >
+                  Home
+                </a>
               </li>
               <li>
-                <a>Destintions</a>
+                <a href="#" >
+                  Destinations
+                </a>
               </li>
               <li>
-                <a>Tours</a>
+                <a href="#" >
+                  Tours
+                </a>
               </li>
               <li>
-                <a>Pages</a>
+                <a href="#" >
+                  Pages
+                </a>
               </li>
               <li>
-                <a>News</a>
+                <a href="#" >
+                  News
+                </a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="#" >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Tevily</a>
+          <Link to="/" className="btn btn-ghost text-xl ml-4">
+            Tevily
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a href="#" >
+                Home
+              </a>
             </li>
             <li>
-              <a>Destintions</a>
+              <a href="#" >
+                Destinations
+              </a>
             </li>
             <li>
-              <a>Tours</a>
+              <a href="#" >
+                Tours
+              </a>
             </li>
             <li>
-              <a>Pages</a>
+              <a href="#" >
+                Pages
+              </a>
             </li>
             <li>
-              <a>News</a>
+              <a href="#" >
+                News
+              </a>
             </li>
             <li>
-              <Link to="contact">
-                <a>Contact</a>
+              <Link to="/contact" >
+                Contact
               </Link>
             </li>
           </ul>
@@ -77,14 +100,15 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="flex">
             <div className="search-container">
-              <div className="search-box">
-                <i class="fa-solid fa-magnifying-glass "></i>
+              <div className="search-box bg-gray-800 p-2 rounded-md">
+                <i className="fa-solid fa-magnifying-glass text-white"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 };
 
 export default Navbar;
