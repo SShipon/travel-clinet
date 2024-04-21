@@ -9,14 +9,7 @@ const Navbar = () => {
     };
 
 
-    const navItems = <>
-    <li ><Link className="hover:text-gray-500"  to="/">Home</Link></li>
-    <li ><Link className="hover:text-gray-500"  to="/destinations">Destinations</Link></li>
-    <li ><Link className="hover:text-gray-500"  to="/tours">Tours</Link></li>
-    <li ><Link className="hover:text-gray-500"  to="/pages">Pages</Link></li>
-    <li ><Link className="hover:text-gray-500"  to="/news">News</Link></li>
-    <li ><Link className="hover:text-gray-500"  to="/contact">Contact</Link></li>
-  </>
+ 
 
     return (
       <header className="bg-white py-10">
