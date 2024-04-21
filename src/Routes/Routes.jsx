@@ -5,29 +5,34 @@ import Page from "../Pages/Page/Page";
 import Contact from "../Pages/Contact/Contact";
 import Destination from "../Pages/Destination/Destination";
 import News from "../Pages/Page/News/News";
+import Tours from "../Pages/Tours/Tours";
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
     children:[
       {
-        path: '/home',
+        path: 'home',
         element: <Home />,
       },
       {
-        path: '/destination',
+        path: 'destination',
         element: <Destination />,
       },
       {
-        path: '/page',
+        path: 'tours',
+        element: <Tours />,
+      },
+      {
+        path: 'page',
         element: <Page />,
       },
       {
-        path: '/news',
+        path: 'news',
         element: <News />,
       },
       {
-        path: '/contact',
+        path: 'contact',
         element: <Contact />,
       },
      

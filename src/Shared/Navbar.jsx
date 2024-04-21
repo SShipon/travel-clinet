@@ -48,12 +48,12 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="relative">
-                            <a
+                            <Link to="/tours"
                                 className="hover:text-gray-500 cursor-pointer"
                                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                             >
                                 Tours
-                            </a>
+                            </Link>
                             {/* Dropdown menu */}
                             {isMenuOpen && (
                                 <ul className="absolute top-full left-0 bg-white border border-gray-200 py-2 px-10 lg:block hidden">
