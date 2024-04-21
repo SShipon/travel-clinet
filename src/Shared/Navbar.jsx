@@ -17,9 +17,9 @@ const Navbar = () => {
                 </div>
                 <div className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 ">
-                        <Link>
-                            <a to='/home' className="hover:text-gray-500" >Home</a>
-                        </Link>
+                    <Link to="/home">
+                <a className="hover:text-gray-500">Home</a>
+              </Link>
                         <li>
                             <a className="hover:text-gray-500" >Destinations</a>
                         </li>
@@ -32,9 +32,9 @@ const Navbar = () => {
                         <li>
                             <a className="hover:text-gray-500" >News</a>
                         </li>
-                        <li>
-                            <a className="hover:text-gray-500" > Contact</a>
-                        </li>
+                        <Link to="/contact">
+                <a className="hover:text-gray-500">Contact</a>
+              </Link>
                     </ul>
                 </div>
                 <div className="flex items-center gap-6">
