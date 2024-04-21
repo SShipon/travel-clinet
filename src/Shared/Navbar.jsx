@@ -32,9 +32,9 @@ const Navbar = () => {
                         <li>
                             <a className="hover:text-gray-500" >News</a>
                         </li>
-                        <li>
-                            <a className="hover:text-gray-500" > Contact</a>
-                        </li>
+                        <Link to="/contact">
+                            <a className="hover:text-gray-500"> Contact</a>
+                        </Link>
                     </ul>
                 </div>
                 <div className="flex items-center gap-6">
