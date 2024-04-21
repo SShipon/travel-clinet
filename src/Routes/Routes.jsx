@@ -14,9 +14,14 @@ export const router = createBrowserRouter([
       },
       
       {
+        path: '/page',
+        element: <Page />,
+      },
+      {
         path: '/contact',
-        element: <Contact/>,
+        element: <Contact />,
       },
     ]
   },
-  ]);
+ 
+]);
