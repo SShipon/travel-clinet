@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import travel from '../assets/logo-1.279e19a3.png'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,22 +18,22 @@ const Navbar = () => {
                 <div className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 ">
                         <li>
-                            <Link to='home' className="hover:text-gray-500" href="#">Home</Link>
+                            <a to='/home' className="hover:text-gray-500" >Home</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">Destinations</a>
+                            <a className="hover:text-gray-500" >Destinations</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">Tours</a>
+                            <a className="hover:text-gray-500" >Tours</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">Pages</a>
+                            <a className="hover:text-gray-500" >Pages</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">News</a>
+                            <a className="hover:text-gray-500" >News</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#"> Contact</a>
+                            <a className="hover:text-gray-500" > Contact</a>
                         </li>
                     </ul>
                 </div>
